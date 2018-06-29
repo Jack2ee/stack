@@ -16,24 +16,18 @@
  + 스택에 있는 모든 데이터를 차례대로 출력할 수 있어야 한다.
 
 3. 스택의 구현: ArrayList나 LinkedList를 이용해 구현할 수 있다. 
-  '''python
-  class BaseStackQueue:
-    # 데이터의 추가
+'''python3
+class BaseStackQueue:
     def push(self, data):
         raise NotImplemented
-    # 데이터 꺼내오기
     def pop(self):
         raise NotImplemented
-    # 데이터 참조하기
     def peek(self):
         raise NotImplemented
-    # 비어있는지 확인
     def is_empty(self):
         raise NotImplemented
-    # 꽉 차있는지 확인
     def is_full(self):
         raise NotImplemented
-    # 리스트 전체 출력
     def display(self):
         raise NotImplemented
-    '''
+'''
